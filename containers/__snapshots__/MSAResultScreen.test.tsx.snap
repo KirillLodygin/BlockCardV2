@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MSAResultScreen renders with all props 1`] = `
+<Fragment>
+  <AdaptiveOperationStatus
+    description="qwe"
+    title="zxc"
+    type="info"
+  />
+  <Styled(styled.div)
+    flexDirection="row"
+    maxWidth="544px"
+  >
+    <styled.div
+      key="asd_continue"
+    >
+      <ButtonContainedLoader
+        data-test-id="continue_blockcardbutton"
+        onClick={[MockFunction]}
+      >
+        asd
+      </ButtonContainedLoader>
+    </styled.div>
+    <styled.div
+      key="qwe_secondary"
+      ml="32px"
+    >
+      <ButtonOutlined
+        data-test-id="secondary_blockcardbutton"
+        onClick={[MockFunction]}
+      >
+        qwe
+      </ButtonOutlined>
+    </styled.div>
+  </Styled(styled.div)>
+</Fragment>
+`;
+
+exports[`MSAResultScreen renders with isFetchLoading=true 1`] = `<ResultScreenSkeleton />`;

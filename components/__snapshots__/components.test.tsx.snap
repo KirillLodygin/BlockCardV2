@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components CodeRequestTimer should render with isTimerRunning=false 1`] = `
+<styled.div
+  mt="16px"
+>
+  <Styled(styled.div)>
+    <components__StyledAdditionalTypography
+      role="timer"
+      weight="bold"
+    >
+      <styled.div
+        as="span"
+        ml="4px"
+      >
+        foo
+      </styled.div>
+    </components__StyledAdditionalTypography>
+  </Styled(styled.div)>
+</styled.div>
+`;
+
+exports[`components CodeRequestTimer should render with isTimerRunning=true 1`] = `
+<styled.div
+  mt="16px"
+>
+  <Styled(styled.div)>
+    <Icon
+      size={24}
+      type="cardPending.svg"
+    />
+    <components__StyledAdditionalTypography
+      role="timer"
+      weight="bold"
+    >
+      <styled.div
+        as="span"
+        ml="4px"
+      >
+        foo
+      </styled.div>
+    </components__StyledAdditionalTypography>
+  </Styled(styled.div)>
+</styled.div>
+`;

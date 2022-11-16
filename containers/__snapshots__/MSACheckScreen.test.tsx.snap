@@ -1,0 +1,409 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MSACheckScreen renders with all props 1`] = `
+<Fragment>
+  <BlockTitle
+    titleText="qwe"
+  />
+  <styled.div
+    mb="32px"
+  >
+    <DataRowTable
+      data={
+        Array [
+          Object {
+            "title": "foo1",
+            "value": "foo2",
+          },
+          Object {
+            "title": "bar1",
+            "value": "bar2",
+          },
+        ]
+      }
+      size="m"
+    />
+  </styled.div>
+  <styled.div
+    mb="32px"
+  >
+    <ButtonContainedLoader
+      data-test-id="continue_blockcardbutton"
+      onClick={[Function]}
+    >
+      xcv
+    </ButtonContainedLoader>
+  </styled.div>
+  <styled.div>
+    <BackButtonBlock
+      data-test-id="back_blockcardbutton"
+      disabled={false}
+      onClick={[MockFunction]}
+    >
+      sdf
+    </BackButtonBlock>
+  </styled.div>
+</Fragment>
+`;
+
+exports[`MSACheckScreen renders with isSentCode=true 1`] = `
+<Fragment>
+  <BlockTitle
+    titleText="qwe"
+  />
+  <styled.div
+    mb="32px"
+  >
+    <DataRowTable
+      data={
+        Array [
+          Object {
+            "title": "foo1",
+            "value": "foo2",
+          },
+          Object {
+            "title": "bar1",
+            "value": "bar2",
+          },
+        ]
+      }
+      size="m"
+    />
+  </styled.div>
+  <styled.div
+    mb="40px"
+  >
+    <styled.div
+      mb="24px"
+    >
+      <AdditionalTypography
+        size="m"
+        tag="p"
+        weight="normal"
+      >
+        bat
+      </AdditionalTypography>
+    </styled.div>
+    <styled.div
+      maxWidth="544px"
+    >
+      <ControlWithTips
+        errorText="sts"
+        hasError={false}
+        width="352px"
+      >
+        <Input
+          autoFocus={true}
+          data-test-id="temporary_block_debit_card_input_smscode_field"
+          disabled={false}
+          hasError={false}
+          inputMode="numeric"
+          isLoading={false}
+          label="asd"
+          maxLength={6}
+          onChange={[MockFunction]}
+          type="text"
+          value="zxc"
+        />
+      </ControlWithTips>
+    </styled.div>
+    <CodeRequestTimer
+      isTimerRunning={true}
+      setIsTimerRunning={[MockFunction]}
+      text="wer"
+      timeout={10}
+    />
+  </styled.div>
+  <styled.div
+    mb="32px"
+  >
+    <ButtonContainedLoader
+      data-test-id="resend_blockcardbutton"
+      disabled={true}
+      isLoading={false}
+      onClick={[Function]}
+    >
+      cvb
+    </ButtonContainedLoader>
+  </styled.div>
+  <styled.div>
+    <BackButtonBlock
+      data-test-id="back_blockcardbutton"
+      disabled={false}
+      onClick={[MockFunction]}
+    >
+      sdf
+    </BackButtonBlock>
+  </styled.div>
+</Fragment>
+`;
+
+exports[`MSACheckScreen renders with isSentCode=true and isFetchLoading=true 1`] = `
+<Fragment>
+  <BlockTitle
+    titleText="qwe"
+  />
+  <styled.div
+    mb="32px"
+  >
+    <DataRowTable
+      data={
+        Array [
+          Object {
+            "title": "foo1",
+            "value": "foo2",
+          },
+          Object {
+            "title": "bar1",
+            "value": "bar2",
+          },
+        ]
+      }
+      size="m"
+    />
+  </styled.div>
+  <styled.div
+    mb="40px"
+  >
+    <styled.div
+      mb="24px"
+    >
+      <AdditionalTypography
+        size="m"
+        tag="p"
+        weight="normal"
+      >
+        bat
+      </AdditionalTypography>
+    </styled.div>
+    <styled.div
+      maxWidth="544px"
+    >
+      <ControlWithTips
+        errorText="sts"
+        hasError={false}
+        width="352px"
+      >
+        <Input
+          autoFocus={true}
+          data-test-id="temporary_block_debit_card_input_smscode_field"
+          disabled={true}
+          hasError={false}
+          inputMode="numeric"
+          isLoading={true}
+          label="asd"
+          maxLength={6}
+          onChange={[MockFunction]}
+          type="text"
+          value="zxc"
+        />
+      </ControlWithTips>
+    </styled.div>
+    <CodeRequestTimer
+      isTimerRunning={true}
+      setIsTimerRunning={[MockFunction]}
+      text="wer"
+      timeout={10}
+    />
+  </styled.div>
+  <styled.div
+    mb="32px"
+  >
+    <ButtonContainedLoader
+      data-test-id="resend_blockcardbutton"
+      disabled={true}
+      isLoading={false}
+      onClick={[Function]}
+    >
+      cvb
+    </ButtonContainedLoader>
+  </styled.div>
+  <styled.div>
+    <BackButtonBlock
+      data-test-id="back_blockcardbutton"
+      disabled={true}
+      onClick={[MockFunction]}
+    >
+      sdf
+    </BackButtonBlock>
+  </styled.div>
+</Fragment>
+`;
+
+exports[`MSACheckScreen renders with isSentCode=true and isTimerRunning=false 1`] = `
+<Fragment>
+  <BlockTitle
+    titleText="qwe"
+  />
+  <styled.div
+    mb="32px"
+  >
+    <DataRowTable
+      data={
+        Array [
+          Object {
+            "title": "foo1",
+            "value": "foo2",
+          },
+          Object {
+            "title": "bar1",
+            "value": "bar2",
+          },
+        ]
+      }
+      size="m"
+    />
+  </styled.div>
+  <styled.div
+    mb="40px"
+  >
+    <styled.div
+      mb="24px"
+    >
+      <AdditionalTypography
+        size="m"
+        tag="p"
+        weight="normal"
+      >
+        bat
+      </AdditionalTypography>
+    </styled.div>
+    <styled.div
+      maxWidth="544px"
+    >
+      <ControlWithTips
+        errorText="sts"
+        hasError={false}
+        width="352px"
+      >
+        <Input
+          autoFocus={true}
+          data-test-id="temporary_block_debit_card_input_smscode_field"
+          disabled={false}
+          hasError={false}
+          inputMode="numeric"
+          isLoading={false}
+          label="asd"
+          maxLength={6}
+          onChange={[MockFunction]}
+          type="text"
+          value="zxc"
+        />
+      </ControlWithTips>
+    </styled.div>
+  </styled.div>
+  <styled.div
+    mb="32px"
+  >
+    <ButtonContainedLoader
+      data-test-id="resend_blockcardbutton"
+      disabled={false}
+      isLoading={false}
+      onClick={[Function]}
+    >
+      cvb
+    </ButtonContainedLoader>
+  </styled.div>
+  <styled.div>
+    <BackButtonBlock
+      data-test-id="back_blockcardbutton"
+      disabled={false}
+      onClick={[MockFunction]}
+    >
+      sdf
+    </BackButtonBlock>
+  </styled.div>
+</Fragment>
+`;
+
+exports[`MSACheckScreen renders with isSentCode=true and secureCode.length === 6 1`] = `
+<Fragment>
+  <BlockTitle
+    titleText="qwe"
+  />
+  <styled.div
+    mb="32px"
+  >
+    <DataRowTable
+      data={
+        Array [
+          Object {
+            "title": "foo1",
+            "value": "foo2",
+          },
+          Object {
+            "title": "bar1",
+            "value": "bar2",
+          },
+        ]
+      }
+      size="m"
+    />
+  </styled.div>
+  <styled.div
+    mb="40px"
+  >
+    <styled.div
+      mb="24px"
+    >
+      <AdditionalTypography
+        size="m"
+        tag="p"
+        weight="normal"
+      >
+        bat
+      </AdditionalTypography>
+    </styled.div>
+    <styled.div
+      maxWidth="544px"
+    >
+      <ControlWithTips
+        errorText="sts"
+        hasError={false}
+        width="352px"
+      >
+        <Input
+          autoFocus={true}
+          data-test-id="temporary_block_debit_card_input_smscode_field"
+          disabled={false}
+          hasError={false}
+          inputMode="numeric"
+          isLoading={false}
+          label="asd"
+          maxLength={6}
+          onChange={[MockFunction]}
+          type="text"
+          value="qweasd"
+        />
+      </ControlWithTips>
+    </styled.div>
+    <CodeRequestTimer
+      isTimerRunning={true}
+      setIsTimerRunning={[MockFunction]}
+      text="wer"
+      timeout={10}
+    />
+  </styled.div>
+  <styled.div
+    mb="32px"
+  >
+    <ButtonContainedLoader
+      data-test-id="resend_blockcardbutton"
+      disabled={true}
+      isLoading={false}
+      onClick={[Function]}
+    >
+      cvb
+    </ButtonContainedLoader>
+  </styled.div>
+  <styled.div>
+    <BackButtonBlock
+      data-test-id="back_blockcardbutton"
+      disabled={false}
+      onClick={[MockFunction]}
+    >
+      sdf
+    </BackButtonBlock>
+  </styled.div>
+</Fragment>
+`;

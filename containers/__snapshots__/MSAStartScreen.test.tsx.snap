@@ -1,0 +1,186 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MSAStartScreen renders with all props 1`] = `
+<Fragment>
+  <BlockTitle
+    titleText="wer"
+  />
+  <styled.div
+    mb="16px"
+  >
+    <RadioGroup
+      data-test-id="radiogroup_blockcard"
+      disabled={false}
+      name="RadioGroup"
+      onChange={[Function]}
+      selected="permanent"
+      type="horizontal"
+    >
+      <Radio
+        key="permanent"
+        value="permanent"
+      >
+        baz1
+      </Radio>
+      <Radio
+        key="temporary"
+        value="temporary"
+      >
+        baz2
+      </Radio>
+    </RadioGroup>
+  </styled.div>
+  <styled.div
+    maxWidth="544px"
+    mb="40px"
+  >
+    <Input
+      disabled={true}
+      label="foo"
+      value="qux"
+    />
+  </styled.div>
+  <styled.div
+    maxWidth="544px"
+    mb="40px"
+  >
+    <Dropdown
+      data-test-id="whyBlockingCardDropdown"
+      label="bar"
+      onChange={[MockFunction]}
+      options={
+        Array [
+          Object {
+            "caption": "foo1",
+            "id": "theft",
+            "value": "foo2",
+          },
+          Object {
+            "caption": "foo3",
+            "id": "loss",
+            "value": "foo4",
+          },
+        ]
+      }
+      value={
+        Object {
+          "caption": "foo3",
+          "id": "loss",
+          "value": "foo4",
+        }
+      }
+    />
+  </styled.div>
+  <styled.div
+    maxWidth="544px"
+    mb="32px"
+  >
+    <Notification
+      text="sdf"
+      type="info"
+    />
+  </styled.div>
+  <styled.div
+    key="asd_continue"
+  >
+    <ButtonContainedLoader
+      data-test-id="continue_blockcardbutton"
+      disabled={false}
+      isLoading={false}
+      onClick={[MockFunction]}
+    >
+      asd
+    </ButtonContainedLoader>
+  </styled.div>
+  <styled.div
+    key="qwe_back"
+    mt="32px"
+  >
+    <BackButtonBlock
+      data-test-id="back_blockcardbutton"
+      disabled={false}
+      isLoading={false}
+      onClick={[MockFunction]}
+    >
+      qwe
+    </BackButtonBlock>
+  </styled.div>
+</Fragment>
+`;
+
+exports[`MSAStartScreen renders with selected radio button = temporary 1`] = `
+<Fragment>
+  <BlockTitle
+    titleText="wer"
+  />
+  <styled.div
+    mb="16px"
+  >
+    <RadioGroup
+      data-test-id="radiogroup_blockcard"
+      disabled={false}
+      name="RadioGroup"
+      onChange={[Function]}
+      selected="temporary"
+      type="horizontal"
+    >
+      <Radio
+        key="permanent"
+        value="permanent"
+      >
+        baz1
+      </Radio>
+      <Radio
+        key="temporary"
+        value="temporary"
+      >
+        baz2
+      </Radio>
+    </RadioGroup>
+  </styled.div>
+  <styled.div
+    maxWidth="544px"
+    mb="40px"
+  >
+    <Input
+      disabled={true}
+      label="foo"
+      value="qux"
+    />
+  </styled.div>
+  <styled.div
+    maxWidth="544px"
+    mb="32px"
+  >
+    <Notification
+      text="sdf"
+      type="info"
+    />
+  </styled.div>
+  <styled.div
+    key="asd_continue"
+  >
+    <ButtonContainedLoader
+      data-test-id="continue_blockcardbutton"
+      disabled={false}
+      isLoading={false}
+      onClick={[MockFunction]}
+    >
+      asd
+    </ButtonContainedLoader>
+  </styled.div>
+  <styled.div
+    key="qwe_back"
+    mt="32px"
+  >
+    <BackButtonBlock
+      data-test-id="back_blockcardbutton"
+      disabled={false}
+      isLoading={false}
+      onClick={[MockFunction]}
+    >
+      qwe
+    </BackButtonBlock>
+  </styled.div>
+</Fragment>
+`;
